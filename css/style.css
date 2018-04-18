@@ -181,7 +181,7 @@ input[type=text] { width: 300px }
 display: flex;
 align-items: center;
 justify-content: center;
-flex-wrap: wrap;
+flex-direction: column;
   }
   
   .card-container2 { 
@@ -189,7 +189,7 @@ flex-wrap: wrap;
 display: flex;
 align-items: center;
 justify-content: center;
-flex-wrap: wrap;
+flex-direction: column;
  
 } 
 }
