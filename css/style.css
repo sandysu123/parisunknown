@@ -167,3 +167,28 @@ input[type=textarea] {
 }
 
 input[type=text] { width: 300px }
+
+/* 6. Media Query for Iphone X */
+
+@media only screen 
+  and (min-device-width: 312px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  
+  { 
+  .card-container1 
+  {
+display: flex;
+align-items: center;
+justify-content: center;
+  	
+  }
+  
+  .card-container2 { 
+
+display: flex;
+align-items: center;
+justify-content: center;
+ 
+} 
+}
