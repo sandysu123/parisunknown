@@ -171,7 +171,7 @@ input[type=text] { width: 300px }
 /* 6. Media Query for Iphone X */
 
 @media only screen 
-  and (min-device-width: 312px) 
+  and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) 
   
@@ -181,7 +181,7 @@ input[type=text] { width: 300px }
 display: flex;
 align-items: center;
 justify-content: center;
-  	
+flex-wrap: wrap;
   }
   
   .card-container2 { 
@@ -189,6 +189,7 @@ justify-content: center;
 display: flex;
 align-items: center;
 justify-content: center;
+flex-wrap: wrap;
  
 } 
 }
